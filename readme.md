@@ -15,8 +15,9 @@
 
 
 <img src="/img/sun.jpg" height="150">
+
 - Para descargar al compilador y lenguaje JAVA.
-            https://www.sun.com
+            https://www.oracle.com/ar/java/
 
 
 ---
