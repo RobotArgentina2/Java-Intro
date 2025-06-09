@@ -194,6 +194,6 @@ Las asignaciones múltiples son también posibles. Por ejemplo, es válida la se
 c = a = b = 400; // asigna 400 a a, b y c.
 
 El operador asignacion se puede combinar con los operadores aritméticos
-
+<img src="src/img/comAsig.jpg" height="50">
 Así la sentencia
 x = x + 23; equivale a x += 23;
