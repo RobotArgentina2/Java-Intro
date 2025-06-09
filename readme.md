@@ -21,7 +21,11 @@
 
 ---
 
-## SENTENCIAS:
+## Es importaante saber ciertos conceptos, cuando se hace referencia en el lenguaje sobre que es una Sentencia, un bloque de codigo, una expresión, etc.
+
+Se definen a continuación estos conceptos
+
+### SENTENCIAS:
 
     	 Una sentencia es una orden que se le da al programa para realizar una tarea
     	 espec'ifica, estas pueden ser:
@@ -33,12 +37,12 @@
     	 Las sentencias terminan con ; este carárter separa una sentencia de la siguiente.
     	 		//imprime un mensaje con salto de línea.
 
-## BLOQUES DE CODIGO:
+### BLOQUES DE CODIGO:
 
     	 Un bloque de código es un grupo de sentencias que se comportan como una
     	 unidad. Un bloque de código está limitado por las llaves de apertura { y cierr }.
 
-## EXPRESIONES:
+### EXPRESIONES:
 
     	 Una expresión es todo aquello que se puede poner a la derecha del operador
     	  asignación = Por ejemplo:
@@ -53,7 +57,7 @@
     	 La cuarta, reserva espacio en memoria para un objeto de la clase Rectangulo
     	 mediante la llamada a una función especial denominada constructor.
 
-## VARIABLES:
+### VARIABLES:
 
     	 Una variable es un nombre que se asocia a una porción de la memoria del
     	 ordenador, en la que se guarda el valor asignado a dicha variable.
@@ -93,7 +97,7 @@
       Delante del nombre de cada variable se ha de especificar el tipo de variable
       que hemos destacado en la letra negrita.
 
-## VARIABLES BOOLEANAS
+### VARIABLES BOOLEANAS
 
       Una variable booleana solamente puede guardar uno de los dos posibles valores:
       true (verdadero) y false (falso).
@@ -102,7 +106,7 @@
       {...}
       encontrado =  true;
 
-## VARIABLES ENTERAS
+### VARIABLES ENTERAS
 
 Una variable entera consiste en cualquier cifra precedida por el signo más
 (opcional), para los positivos, o el signo menos, para los negativos.
@@ -115,21 +119,81 @@ long m = 30L;
 En la tercera linea 30, es un número de tipo int por defecto, le ponemos el subfijo L en mayúscula o minúscula para indicar que es de tipo long.
 Existen como vemos en la taba varios tipos de números enteros (byte, short, int, long).
 
-## VARIABLES CON COMA FLOTANTE
+### VARIABLES CON COMA FLOTANTE
 
     	 Las variables del tipo float o double (como flotante) se usan para guardar
     	 números en memoría que tienen parte entera y parte decimal.
     	  	double PI = 3.141516;
     	  	double G = 9.7805;
 
-## VALORES CONSTANTES
+### VALORES CONSTANTES
 
     	Cuando se declara una variable del tipo final, se ha de inicializar y cualquier intento de modificarla en el curso de la ejecución del programa da lugar a un error.
     	Normalmente, las constantes de un programa se suelen poner en letras mayúsculas para distinguirlas de las que no son constantes. He aquí ejemplos de declaración de constantes.
     	   	final double PI = 3.141516;
     	   	final int MAX_DATOS = 150;
 
-## LAS CADENAS DE CARACTERES O STRINGS
+### LAS CADENAS DE CARACTERES O STRINGS
 
     	Las cadens de caracteres o strings en Java son los objetos String
     	  	String mensaje = "El primer programa";
+
+### PALABRAS RESERVADAS AL LENGUAJE
+
+En el siguiente cuadro se listan las palabras reservadas, aquellas que emplea el lenguaje Java, y que el programador no puede utilizar como identificadores (nombre de una variable).
+
+- Tipos de datos: **_boolean_**, **_float_**, **_double_**, **_int_**, **_char_**
+- Sentencias condicionales: **_if_**, **_else_**, **_switch_**
+- Sentencias iterativas: **_for_**, **_do_**, **_while_**, **_continue_**, **_break_**
+- Tratamiento de las excepciones: **_try_**, **_catch_**, **_finally_**, **_throw_**
+- Estructura de datos: **_class_**, **_interface_**, **_implements_**, **_extends_**
+- Modificadores y control de acceso: **_public_**, **_private_**, **_protected_**, **_transient_**
+- Otras: **_super_**, **_null_**, **_this_**
+
+---
+
+## OPERADORES
+
+Todos los lenguajes de programacion permiten realizar operaciones entre los tipos de datos básicos: suma, resta, producto, división, etc.
+
+### Los operadores aritméticos
+
+Java tiene cinco operadores aritméticos cuyo significado se muestra a continuación.
+
+- Operador: + -> Nombre: Suma -> Ejemplo: 3 + 4
+- Operador: - -> Nombre: Resta -> Ejemplo: 3 - 4
+- Operador: _ -> Nombre: Producto -> Ejemplo: 3 _ 4
+- Operador: / -> Nombre: División -> Ejemplo: 100 / 5
+- Operador: % -> Nombre: Módulo -> Ejemplo: 100 % 5
+
+El cociente entre dos enteros da como resultado un entero. Por ejemplo al dividir 100 entre 50 nos da como resultado 2.
+
+El operador módulo da como resultado el resto de la división entera. Por ejemplo 100 % 5 da como resultado 0, que es el resto de la división entre 100 y 50.
+
+### El operador asignación
+
+Nos habremos dado cuenta que el operador más importante y más frecuentemente usado es el operador asignación ¡, que hemos empleado para la inicialización de las variables. Así,
+int numero;
+numero = 20;
+La primera sentencia declara una variable entera de tipo int y le da un nombre (numero), la segunda sentencia usa el operador asignación para inicializar la variable con el número 20.
+Consideremos ahora la siguiente sentencia
+a = b;
+que asigna a a el valor de b. A la izquierda siempre tendremos una variable tal como a, que recibe valores, a la derecha otra variable b, o expresión que tiene un valor.
+
+Por tanto, tienen sentido las expresiones
+a = 1234;
+double area = calculaArea(radio);
+superficie = ancho \* alto;
+
+Sin embargo, no tiene sentido las expresiones
+
+    1234 = a;
+    calculaArea(radio) = area;
+
+Las asignaciones múltiples son también posibles. Por ejemplo, es válida la sentencia
+c = a = b = 400; // asigna 400 a a, b y c.
+
+El operador asignacion se puede combinar con los operadores aritméticos
+
+Así la sentencia
+x = x + 23; equivale a x += 23;
