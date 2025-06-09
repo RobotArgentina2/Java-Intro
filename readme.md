@@ -162,7 +162,7 @@ Java tiene cinco operadores aritméticos cuyo significado se muestra a continuac
 
 - Operador: + -> Nombre: Suma -> Ejemplo: 3 + 4
 - Operador: - -> Nombre: Resta -> Ejemplo: 3 - 4
-- Operador: _ -> Nombre: Producto -> Ejemplo: 3 _ 4
+- Operador: * -> Nombre: Producto -> Ejemplo: 3 * 4
 - Operador: / -> Nombre: División -> Ejemplo: 100 / 5
 - Operador: % -> Nombre: Módulo -> Ejemplo: 100 % 5
 
@@ -199,3 +199,30 @@ El operador asignacion se puede combinar con los operadores aritméticos
 
 Así la sentencia
 x = x + 23; equivale a x += 23;
+
+#### Los operadores relacionales
+Los operadores relacionales son símbolos que se usan para comparar dos valores. Si el resultado de la comparación es correcto la expresión considerada es verdadera, en caso contrario es falsa.
+
+<img src="src/img/relacional.jpg" height="80">
+
+Se debe tener especial cuidado en no confudir el operador asignación con el operador relacional igual a. Las asignaciones se realizan con el símbolo =, las comparaciones con ==.
+En el programa se compara la variable i que guarda un 8, con un conjunto de valores, el resultado de la comparaci'on es verdadero (true) o falso (false).
+
+<img src="src/img/progrelaciones.jpg" height="80">
+
+
+#### Los operadores lógicos
+Los operadores lógicos son:
+- && AND (el resultado es verdadero si ambas expresiones son verdaderas).
+- || OR (el resultado es verdadero si alguna expresión es verdadera).
+- !NOT (el resultado invierte la condición de la expresión).
+
+AND y OR trabajan con dos operandos y retornan un valor lógico basadas en las denominadas tablas de verdad. El operador NOT actúa sobre un operando. Estas tablas de verdad son conocidas y usada en el contexto de la vida diaria, por ejemplo:"si hace sol Y tengo tiempo, iré a la playa", " si NO hace sol, me quedaré en casa", "si llueve O hace viento,iré al cine". Las tablas de verdad de los operadores AND, OR y NOT se muestran en las tablas siguientes
+
+<img src="src/img/tablasand.jpg" height="80">
+
+<img src="src/img/tablasor.jpg" height="80">
+
+<img src="src/img/tablasnot.jpg" height="80">
+
+
