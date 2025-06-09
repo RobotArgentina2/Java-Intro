@@ -1,6 +1,6 @@
 ## Una introducción al uso del lenguaje JAVA
 
-### Biliografia de consulta: INTRODUCCION A LA PROGRAMACION ORIENTADA A OBJETOS
+### Bibliografía de consulta: INTRODUCCION A LA PROGRAMACION ORIENTADA A OBJETOS
 
 ### Desarrollado por: SUN Microsystem.
 
@@ -9,12 +9,12 @@
 ---
 
 **_Recursos_**
-<img src="src/img/eclipse.jpg" height="150">
+<img src="src/img/eclipse.jpg" height="90">
 
 - Para descargar al IDE de desarrollo para programar y trabajar con el lenguaje JAVA.
   https://www.eclipse.org
 
-<img src="src/img/sun.jpg" height="150">
+<img src="src/img/sun.jpg" height="90">
 
 - Para descargar al compilador y lenguaje JAVA.
   https://www.oracle.com/ar/java/
