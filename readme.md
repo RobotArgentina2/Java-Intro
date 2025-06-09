@@ -7,18 +7,17 @@
 ### Autor: Francisco Mesa.
 
 ---
-***Recursos***
-<img src="/img/eclipse.jpg" height="150">
+
+**_Recursos_**
+<img src="src/img/eclipse.jpg" height="150">
 
 - Para descargar al IDE de desarrollo para programar y trabajar con el lenguaje JAVA.
-            https://www.eclipse.org
+  https://www.eclipse.org
 
-
-<img src="/img/sun.jpg" height="150">
+<img src="src/img/sun.jpg" height="150">
 
 - Para descargar al compilador y lenguaje JAVA.
-            https://www.oracle.com/ar/java/
-
+  https://www.oracle.com/ar/java/
 
 ---
 
@@ -34,13 +33,10 @@
     	 Las sentencias terminan con ; este carárter separa una sentencia de la siguiente.
     	 		//imprime un mensaje con salto de línea.
 
-
 ## BLOQUES DE CODIGO:
 
     	 Un bloque de código es un grupo de sentencias que se comportan como una
     	 unidad. Un bloque de código está limitado por las llaves de apertura { y cierr }.
-
-
 
 ## EXPRESIONES:
 
@@ -56,7 +52,6 @@
     	 La tercer, es una llamada a una función miembro calcularArea desde un objeto circulo de una clase determinada.
     	 La cuarta, reserva espacio en memoria para un objeto de la clase Rectangulo
     	 mediante la llamada a una función especial denominada constructor.
-
 
 ## VARIABLES:
 
@@ -98,7 +93,6 @@
       Delante del nombre de cada variable se ha de especificar el tipo de variable
       que hemos destacado en la letra negrita.
 
-
 ## VARIABLES BOOLEANAS
 
       Una variable booleana solamente puede guardar uno de los dos posibles valores:
@@ -107,7 +101,6 @@
       boolean encontrado = false;
       {...}
       encontrado =  true;
-
 
 ## VARIABLES ENTERAS
 
@@ -129,7 +122,6 @@ Existen como vemos en la taba varios tipos de números enteros (byte, short, int
     	  	double PI = 3.141516;
     	  	double G = 9.7805;
 
-
 ## VALORES CONSTANTES
 
     	Cuando se declara una variable del tipo final, se ha de inicializar y cualquier intento de modificarla en el curso de la ejecución del programa da lugar a un error.
@@ -137,11 +129,7 @@ Existen como vemos en la taba varios tipos de números enteros (byte, short, int
     	   	final double PI = 3.141516;
     	   	final int MAX_DATOS = 150;
 
-
 ## LAS CADENAS DE CARACTERES O STRINGS
 
     	Las cadens de caracteres o strings en Java son los objetos String
     	  	String mensaje = "El primer programa";
-
-
-
