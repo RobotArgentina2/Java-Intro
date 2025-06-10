@@ -259,4 +259,4 @@ package campo {
 }
 @enduml
 
-<img src="src/img/campoclass.jpg" height="100">
+<img src="src/img/campoclass.jpg" height="200">
