@@ -225,4 +225,36 @@ AND y OR trabajan con dos operandos y retornan un valor lógico basadas en las d
 
 <img src="src/img/tablasnot.jpg" height="80">
 
+### Clases
+@startuml
+package campo {
 
+    class Campo {
+        + int numeroOlivas
+        + int edadOlivo
+        + static final short COSTO_OLIVO
+        --
+        + Campo()
+        + Campo(int numeroOlivos)
+        + Campo(int edad, int numOlivo)
+        --
+        - short beneficioCampo()
+        - short beneficioCampo(int numeroOlivo)
+        + int getNumOlivas()
+        + void setNumOlivas(int numOlivas)
+        + int getEdadOlivo()
+        + void setEdadOlivo(int edadOlivo)
+        - void sumaOlivas(int incremento)
+        + void sumaEdad(int incremento)
+        + short getCOSTO_OLIVO()
+        + String toString()
+    }
+
+    class ComponentesCampo {
+        --
+        + main(String[] args)
+    }
+
+    ComponentesCampo --> Campo : usa
+}
+@enduml
