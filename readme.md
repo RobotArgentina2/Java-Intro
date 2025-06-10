@@ -226,6 +226,25 @@ AND y OR trabajan con dos operandos y retornan un valor lógico basadas en las d
 <img src="src/img/tablasnot.jpg" height="80">
 
 ### Clases
+#### Introducción a la programación orientada a objetos
+Es importante entender lo que significa el concepto de lo que significa la programación orientada a objetos.
+Para ello vamos a tratar con un ejemplo, supongamos tener un campo, este a su vez tendrá un número determinado de olivos con sus atributos(edad, número de olivas, etc).
+Nuestro campo tendrá una función que será generar una serie de beneficios por la producción.
+
+- La ***clase*** que agrupará los atributos y funciones se llamará Campo, class Campo.
+- Las variaables que guardarán los atributos propios de cada objeto, también llamadas variables de instancia o miembros datos serán:
+		int numeroOlivas;
+		int edadOlivo;
+- Los ***etos*** de la clase Campo serán cada uno de los olivos que pasarán el valor de los atributos para ser guardados en las variables a través de un constructor.
+	Campo olivo1 = new Campo(10,20) // 10 y 20 son los valores de los atributos del olivo1.
+- Los ***constructores*** de la clase recibiran el valor del atributo para asignarlo a las variables de instancia de la clase.
+	Campo(edad, numOlivas) {
+		this.edad = edad;
+		this.numOlivas = numOlivas;
+	}
+- Los ***métodos o funciones*** se podrá llamar desde el objeto.
+	olivo1.beneficios(); //Llamada a una funcion que retornará un resultado.
+
 @startuml
 package campo {
 
