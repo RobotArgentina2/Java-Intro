@@ -258,3 +258,5 @@ package campo {
     ComponentesCampo --> Campo : usa
 }
 @enduml
+
+<img src="src/img/campoclass.jpg" height="100">
